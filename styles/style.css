@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Shared Styles*/
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn
+{
+    background-color: #469165;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    padding: 12.5px 16px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #367c52;
+}
+.logo img
+{
+    cursor: pointer;
+}
+/*main styles*/
+
+header{
+    
+}
+nav
+{
+    width: 91%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+    margin: 0 auto;
+}
+nav .menu
+{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+nav .menu a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+}
