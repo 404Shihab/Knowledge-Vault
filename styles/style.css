@@ -32,12 +32,13 @@
 /*main styles*/
 
 header{
-    
+    background-color: #FFFFFF;
 }
+
 nav
 {
-    width: 91%;
-    max-width: 1600px;
+    width: 85%;
+    max-width: 1360px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,3 +57,45 @@ nav .menu a{
     font-size: 16px;
     color: #000000;
 }
+#banner
+{
+    padding: 115.5px 120px 179.5px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+#banner .banner-content
+{
+    max-width: 1360px;
+}
+#banner .banner-content h1{
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    font-size: 72px;
+    font-weight: 700;
+}
+#banner .banner-content p{
+   margin-bottom: 32px;
+   width: 588px;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 24px;
+   color: #FFFFFF;
+}
+#banner .btn-2
+{
+    padding: 8px 12px 8px 12px;
+    border-radius: 1000px;
+    background-color: FFFFFF;
+    color:#469165;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+}
+
